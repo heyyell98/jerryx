@@ -21,5 +21,5 @@ elif (($chosen==3));then
         yum install -y wget && wget -O install.sh http://download.bt.cn/install/install_6.0.sh && sh install.sh
 else
         echo "输入命令有误"
-        wget -N --no-check-certificate "https://raw.githubusercontent.com/heyyell98/jerryx/master/one.sh" && chmod +x study.sh && ./study.sh
+        wget -N --no-check-certificate "https://raw.githubusercontent.com/heyyell98/jerryx/master/one.sh" && chmod +x one.sh && ./one.sh
 fi
